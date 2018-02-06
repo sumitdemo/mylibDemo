@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\SumitData\POCS\webview-overlay-master\WebViewOverlay\WebViewOverlay.iml" filepath="D:\SumitData\POCS\webview-overlay-master\WebViewOverlay\WebViewOverlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewOverlayVCX/WebViewOverlay.iml" filepath="$PROJECT_DIR$/WebViewOverlayVCX/WebViewOverlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\SumitData\POCS\webview-overlay-master\app\app.iml" filepath="D:\SumitData\POCS\webview-overlay-master\app\app.iml" />
+      <module fileurl="file://D:\SumitData\POCS\webview-overlay-master\webview-overlay.iml" filepath="D:\SumitData\POCS\webview-overlay-master\webview-overlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webview-overlay-master.iml" filepath="$PROJECT_DIR$/webview-overlay-master.iml" />
+    </modules>
+  </component>
+</project>
