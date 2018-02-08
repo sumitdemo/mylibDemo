@@ -4,20 +4,20 @@ ext {
     bintrayRepo = 'WebViewOverlayvcx'
     bintrayName = 'WebViewOverlayvcx'
 
-    publishedGroupId = 'org.ptyagicodecampvcx'
+    publishedGroupId = 'org.sumitdemo'
     libraryName = 'WebViewOverlayvcx'
-    artifact = 'WebViewOverlayvcx'
+    artifact = 'WebViewOverlayVCX'
 
     libraryDescription = 'A widget to load WebView as an Overlay.'
 
-    siteUrl = 'https://github.com/ptyagicodecamp/webview-overlay'
-    gitUrl = 'https://github.com/ptyagicodecamp/webview-overlay.git'
+    siteUrl = 'https://github.com/sumitdemo/mylibDemo'
+    gitUrl = 'https://github.com/sumitdemo/mylibDemo.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.1'
 
-    developerId = 'ptyagicodecamp'
-    developerName = 'Priyanka Tyagi'
-    developerEmail = 'ptyagicodecamp@gmail.com'
+    developerId = 'sumitdemo'
+    developerName = 'sumit Tyagi'
+    developerEmail = 'sumit.k@vcloudx.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -39,7 +39,13 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -56,5 +62,6 @@ dependencies {
 
 //Add these lines to publish library to bintray
 //Place it at the end of the file
+//apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
