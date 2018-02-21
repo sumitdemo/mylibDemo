@@ -13,7 +13,8 @@ ext {
     siteUrl = 'https://github.com/sumitdemo/mylibDemo'
     gitUrl = 'https://github.com/sumitdemo/mylibDemo.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
+
 
     developerId = 'sumitdemo'
     developerName = 'sumit Tyagi'
