@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/sumitdemo/mylibDemo'
     gitUrl = 'https://github.com/sumitdemo/mylibDemo.git'
 
-    libraryVersion = '1.0.3'
+    libraryVersion = '1.0.0'
 
 
     developerId = 'sumitdemo'
@@ -32,8 +32,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.0.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

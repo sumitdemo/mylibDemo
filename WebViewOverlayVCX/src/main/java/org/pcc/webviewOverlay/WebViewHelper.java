@@ -24,6 +24,8 @@ public class WebViewHelper implements View.OnClickListener {
     private Context mContext;
     private Dialog mWebviewDialog = null;
 
+    String libVersion="1.0.0";
+
     /**
      * Initializes helper class
      *
